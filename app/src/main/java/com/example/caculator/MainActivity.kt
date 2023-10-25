@@ -16,11 +16,11 @@ class MainActivity : AppCompatActivity() {
         intArrayOf(android.R.attr.state_enabled)  // enable
     )
     val numBtnColors = intArrayOf(
-        Color.YELLOW,
+        Color.RED,
         Color.LTGRAY
     )
     val otherBtnColors = intArrayOf(
-        Color.YELLOW,
+        Color.RED,
         Color.GRAY
     )
     val numBtnStateList = ColorStateList(states, numBtnColors)
